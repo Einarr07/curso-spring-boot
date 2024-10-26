@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/inmueble")
+@RequestMapping("/api/inmueble")
 public class InmuebleController {
 
     @Autowired
